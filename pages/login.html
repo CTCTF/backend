@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<meta name="description" content="Capture the CTF">
+		<meta name="author" content="CTCTF">
+		<meta name="google-site-verification" content="jiNgJS7e6rsx_KPjMZcqTZvGSGlFZch5eoAkkfAmdvY" />
+
+		<title>Login - Capture the CTF</title>
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link href="css/styles.css" rel="stylesheet">
+
+		<link rel="icon" href="img/ctctf.ico" media="screen">
+	</head>
+	<body>
+		<nav class="navbar">
+            <ul class="nav-container" id="nav">
+                <li class="item"><a href="http://ctctf.io">Home</a></li>
+                <li class="item"><a href="about">About</a></li>
+                <li class="item"><a href="faq">FAQ</a></li>
+                <li class="item"><a href="sponsors">Sponsors</a></li>
+                <li class="item"><a href="contact">Contact</a></li>
+                <li class="item"><a href="register">Register</a></li>
+            </ul>
+        </nav>
+        
+        <div class="cover"></div>
+        <br><br><br><br><br><br><br>
+		<div class="container">
+			<div class="row">
+				<div class="page-header">
+					<h1>Login</h1>
+				</div>
+				<div class="row">
+					<div id="login_msg"></div>
+				</div>
+
+                
+				<div class="container-fluid">
+					<div class="col-lg-8 col-lg-offset-2">
+                        <form class="form-horizontal" action="" onsubmit="return false;">
+                            <input type="text" name="teamname" class="email-form" id="log-team" placeholder="Team Name">
+                            <br>
+                            <br>
+                            <input type="password" name="password" class="email-form" id="log-pass" placeholder="Password">
+                            <br>
+                            <br>
+
+                            <div class="col-lg-8 col-lg-offset-2">
+                                <label for="log-password" class="col-lg-3 control-label"></label>
+                                <br>
+                                <button class="register" id="login-button" onClick="handle_login(); return false;">Login</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <br><br><br>
+            <a id="forgot-button" href="/forgot">Forgot your password?</a>
+            <br>
+            <a id="forgot-button" href="/register">Register for CTCTF</a>
+            <br><br><br>
+			<div id="footer"></div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/dependencies.js"></script>
+		<script type="text/javascript" src="js/pnotify.min.js"></script>
+		<script type="text/javascript" src="js/login.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				display_navbar();
+				load_footer();
+			});
+		</script>
+	</body>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+		<meta name="description" content="CTCTF">
+		<meta name="author" content="Stevenson HS">
+
+		<title>Account - CTCTF 2015</title>
+
+		<link rel="stylesheet" href="css/main.css" media="screen" />
+		<link rel="stylesheet" href="css/account.css" media="screen" />
+		<link rel="icon" href="img/easyctf.ico" media="screen" />
+	</head>
+	<body>
+		<nav role="navigation" class="navbar navbar-default">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-content">
+						<span class="sr-only">Toggle Navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button><a href="/" class="navbar-brand">CTCTF</a>
+				</div>
+				<div id="navbar-content" class="collapse navbar-collapse">
+				    <ul class="nav navbar-nav" id="nav-left">
+				    </ul>
+				    <ul class="nav navbar-nav navbar-right" id="nav-right">
+				    </ul>
+				</div>
+			</div>
+		</nav>
+
+		<div class="container">
+			<div class="row">
+			    
+				<div class="page-header">
+					<h1>Account Settings</h1>
+				</div>
+
+				<div id="update_msg"></div>
+
+				<div class="well col-lg-7">
+					<form action="javascript:updateInfo()" class="form-horizontal">
+						<fieldset>
+							<legend>Basic Account Info</legend>
+							<div class="form-group">
+								<label for="account-name" class="col-lg-3 control-label">Team Name</label>
+								<div class="col-lg-8">
+									<input id="account-name" type="text" name="account-name" placeholder="Team Name" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label class="col-lg-3 control-label">Email
+									<br /><small>Sorry, can't change this.</small>
+								</label>
+								<div class="col-lg-8">
+									<input id="account-email" type="text" disabled placeholder="Email" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="account-school" class="col-lg-3 control-label">School / Affiliation</label>
+								<div class="col-lg-8">
+									<input id="account-school" type="text" name="account-school" placeholder="School / Affiliation" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="account-password" class="col-lg-3 control-label">New Password
+									<br /><small>Leave blank to leave unchanged.</small>
+								</label>
+								<div class="col-lg-8">
+									<input id="account-password" type="password" name="account-password" placeholder="New password" class="form-control">
+								</div>
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Type your Password to Confirm</legend>
+							<div class="form-group">
+								<label for="account-confirm" class="col-lg-3 control-label">Confirm Changes</label>
+								<div class="col-lg-8">
+									<input id="account-confirm" type="password" name="account-confirm" placeholder="Confirm changes" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<label for="account-submit" class="col-lg-3 control-label"></label>
+								<div class="col-lg-8">
+									<input id="account-submit" type="submit" name="account-submit" value="Update Account" class="btn btn-primary">
+								</div>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+
+				<!-- <h3>Group Membership</h3>
+				<p>You are currently a member of the following groups. A red group name indicates that you are an owner of that group. The button at the end of the row allows you to leave a group.</p>
+				<div class="container" id="group_membership_table">
+					You are not a member of any groups.
+				</div>
+				<h3>Group Management</h3>
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="col-lg-8">
+							<div class="form-group">
+								<label class="col-lg-3 control-label" for="group">Group</label>
+								<div class="col-lg-8">
+									<input class="form-control" type="text" name="group" id="group_join_input" placeholder="Group" />
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-8">
+							<label class="col-lg-3 control-label"></label>
+							<button id="join-group-button" type="submit" class="btn btn-primary">
+								Join
+							</button>
+							<button id="create-group-button" type="submit" class="btn btn-primary">
+								Create
+							</button>
+						</div>
+					</div>
+				</div>
+				<h3>Change Password</h3>
+				<p>Not implemented yet.</p> -->
+			</div>
+
+			<div id="footer"></div>
+		</div>
+
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/dependencies.js"></script>
+		<script type="text/javascript" src="js/account.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				display_navbar();
+				redirect_if_not_logged_in();
+				load_account_info();
+				load_group_memberships();
+				load_footer();
+			});
+		</script>
+	</body>
+</html>

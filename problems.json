@@ -1,0 +1,29 @@
+{ "basescore": 5, "desc": "Complete a survey for free points and feedback: <a href=\"https://jaymo1.typeform.com/to/qvMXQx\">Link to Survey</a>\n", "displayname": "Hello CTCTFer", "grader": "hello", "hint": "It's free. No strings attached." }
+
+{ "basescore": 10, "desc": "Csbjogvdl jt bo ftpufsjd qsphsbnnjoh mbohvbhf opufe gps jut fyusfnf njojnbmjtn. Uif mbohvbhf dpotjtut pg pomz fjhiu tjnqmf dpnnboet boe bo jotusvdujpo qpjoufs. Ju jt eftjhofe up dibmmfohf boe bnvtf qsphsbnnfst, boe xbt opu nbef up cf tvjubcmf gps qsbdujdbm vtf. Ju xbt dsfbufe jo 1993 cz Vscbo Nümmfs. Bozxbzt, uif gmbh jt tufq_ju_vq\n", "displayname": "Caesar the Flag", "grader": "caesar", "hint": "" }
+{ "basescore": 20, "desc": "Kyv wcrx zj trgklivu_kyv_wcrx\n", "displayname": "Dbftbs Djqifs", "grader": "dbftbs", "hint": "Step it up" }
+{ "basescore": 35, "desc": "ZY DHPUKYEHAURP, A JBSJKZKBKZYY DZURQH ZJ A TQKRYF YW QYDYFZYE SP MRZDR BYZKJ YW UVAZYKQOK AHQ HQUVADQF MZKR DZURQHKQOK, ADDYHFZYE KY A HQEBVAH JPJKQT; KRQ \"BYZKJ\" TAP SQ JZYEVQ VQKKQHJ (KRQ TYJK DYTTYY), UAZHJ YW VQKKQHJ, KHZUVQKJ YW VQKKQHJ, TZOKBHQJ YW KRQ ASYNQ, AYF JY WYHKR. WYH KRQ WVAE, ZK'J CQQUZKDVQAY\n", "displayname": "Keyboard", "grader": "keyboard", "hint": "Keyboard... substitution?" }
+
+{ "basescore": 70, "desc": "84433 33355524 444777794466683399877775554445533844 4447777\n", "displayname": "8675309", "grader": "8675309", "hint": "Numbers... phone numbers?" }
+
+{ "basescore": 15, "desc": "Kelvin just created his personal website. See if there's anything suspicious!<br><a href=\"/problem_data/Kelvin/website.html\" target=\"_blank\">Kelvin's Website</a>\n", "displayname": "Kelvin's Corner", "grader": "corner", "hint": "Try viewing the page source" }
+
+{ "basescore": 25, "desc": "<img src=\"/problem_data/forensics/easysteg.jpg\" style=\"max-width: 540px;\">\n", "displayname": "They said EasyCTF was Easy", "grader": "easyctf", "hint": "Hint" }
+{ "basescore": 30, "desc": "<img src=\"/problem_data/forensics/QRCode.png\" style=\"max-width: 540px;\">\n", "displayname": "Faulty QR", "grader": "qr", "hint": "What do you know about QR codes?" }
+{ "basescore": 35, "desc": "<img src=\"/problem_data/forensics/patience.gif\" style=\"max-width: 540px;\">\n", "displayname": "Patience", "grader": "patience", "hint": "Sometimes the obvious isn't the answer" }
+{ "basescore": 45, "desc": "<img src=\"/problem_data/forensics/logo.jpg\" style=\"max-width: 540px;\">\n", "displayname": "Capture the Logo", "grader": "logo", "hint": "Hint" }
+{ "basescore": 60, "desc": "<img src=\"/problem_data/forensics/uninteresting_gif.gif\" style=\"max-width: 540px;\">\n", "displayname": "Uninteresting gif", "grader": "uninteresting", "hint": "Hint" }
+
+{ "basescore": 40, "desc": "Frogs are known to have excellent eyesight. Being a designer, Kelvin the Frog also has excellent taste for colors. Here's a list of <a href=\"/problem_data/Kelvin/colors.txt\" target=\"_blank\">his favorite colors</a>.\n", "displayname": "Kelvin's Favorite Colors", "grader": "colors", "hint": "What does the # do?" }
+
+{ "basescore": 25, "desc": "\n", "displayname": "His name is Jay Mo", "grader": "hisnameisjaymo", "hint": "unitedjaymo" }
+{ "basescore": 45, "desc": "My name is Michael Zhang.\n", "displayname": "1023megabytes", "grader": "1023megabytes", "hint": "" }
+
+{ "basescore": 40, "desc": "C++, JavaScript, Python, Java. Long ago four languages worked together then, everything changed when annoying developers started complaining. Only the Javatar can master all four languages.<br><a href=\"/problem_data/Kelvin/Javatar.class\">Javatar</a>\n", "displayname": "Javatar", "grader": "javatar", "hint": "Check out <a href=\"http://jd.benow.ca/\">jd-gui</a>" }
+{ "basescore": 50, "desc": "Take a look at Kelvin's newest app:<br><a href=\"/problem_data/Twerkopter/Twerkopter.xap\">Twerkopter.xap</a>\n", "displayname": "Legend of Twerkopter", "grader": "twerkopter", "hint": "What's a XAP file?" }
+
+{ "basescore": 0, "desc": "Description\n", "displayname": "Title", "grader": "thing", "hint": "Hint" }
+{ "basescore": 0, "desc": "Description\n", "displayname": "Title", "grader": "another", "hint": "Hint" }
+
+{ "basescore": 70, "desc": "written by Michael Zhang.<br /><code>27623b1c6b18181fed122b113027111f</code><br />flag: <code>cbcb381b203b232233cbcb</code>\n", "displayname": "This problem is 3 hard 3 me!", "grader": "3_hard", "hint": "nope" }
+
